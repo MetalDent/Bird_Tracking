@@ -1,9 +1,9 @@
-import pandas as pd 
+import pandas as pa
 import matplotlib.pyplot as plt 
 import numpy as np 
   
-birddata = pd.read_csv("bird_tracking.csv") 
-bird_names = pd.unique(birddata.bird_name)  
+birddata = pa.read_csv("bird_tracking.csv") 
+bird_names = pa.unique(birddata.bird_name)  
 
 # For Eric 
 ix = birddata.bird_name == "Eric" 
