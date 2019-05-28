@@ -1,10 +1,10 @@
-import pandas as pd 
+import pandas as pa
 import cartopy.crs as ccrs 
 import cartopy.feature as cfeature 
 import matplotlib.pyplot as plt 
 
-birddata = pd.read_csv("bird_tracking.csv") 
-bird_names = pd.unique(birddata.bird_name) 
+birddata = pa.read_csv("bird_tracking.csv") 
+bird_names = pa.unique(birddata.bird_name) 
  
 proj = ccrs.Mercator() 
 
